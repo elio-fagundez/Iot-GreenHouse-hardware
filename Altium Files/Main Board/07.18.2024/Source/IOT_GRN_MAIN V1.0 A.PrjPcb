@@ -89,6 +89,57 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
+DocumentPath=IOT_GRN_MAIN V1.0 A - ESP32.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FZLQVIJD
+
+[Document4]
+DocumentPath=IOT_GRN_MAIN V1.0 A - CONNECTORS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YPHSLFKC
+
+[Document5]
+DocumentPath=IOT_GRN_MAIN V1.0 A - OUTPUTS.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ACTSTMJP
+
+[Document6]
 DocumentPath=IOT_GRN_MAIN V1.0 A.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -105,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RQORXKDH
 
-[Document4]
+[Document7]
 DocumentPath=IOT_GRN_MAIN V1.0 A.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -122,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document5]
+[Document8]
 DocumentPath=IOT_GRN_MAIN V1.0 A.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
