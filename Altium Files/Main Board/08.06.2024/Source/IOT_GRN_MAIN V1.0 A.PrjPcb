@@ -55,7 +55,7 @@ ReleaseFolderPath=C:\Users\snee\Documents\Altium\Projects\Sentinel Controller\Pr
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=IOT_GRN_MAIN V1.0 A.SchDoc
+DocumentPath=IOT_GRN_MAIN V1.0 A - Rev His.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -95,7 +95,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -112,7 +112,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=2
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -129,7 +129,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -195,33 +195,8 @@ UniqueID=90B914CC-D9E1-4771-9BED-32D75FD6A92A
 Description=Base Variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=26
-Variation1=Designator=C21|UniqueId=\WZUHXRHQ\LOAEDYGX\EGKLPSSW\HKINFRGP|Kind=0|AlternatePart= 
-Variation2=Designator=C22|UniqueId=\WZUHXRHQ\LOAEDYGX\EGKLPSSW\BHRRTGMF|Kind=0|AlternatePart= 
-Variation3=Designator=C24|UniqueId=\WZUHXRHQ\LOAEDYGX\EGKLPSSW\MTLNXGUY|Kind=0|AlternatePart= 
-Variation4=Designator=C25|UniqueId=\WZUHXRHQ\LOAEDYGX\EGKLPSSW\APZKSINE|Kind=0|AlternatePart= 
-Variation5=Designator=C27|UniqueId=\WZUHXRHQ\LOAEDYGX\EGKLPSSW\OJAVSYDD|Kind=0|AlternatePart= 
-Variation6=Designator=C28|UniqueId=\WZUHXRHQ\LOAEDYGX\EGKLPSSW\CTBAWAHG|Kind=0|AlternatePart= 
-Variation7=Designator=R42|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\YPBATTPT|Kind=0|AlternatePart= 
-Variation8=Designator=R29|UniqueId=\WZUHXRHQ\WNWRSSRM\WQINMMFC|Kind=0|AlternatePart= 
-Variation9=Designator=R31|UniqueId=\WZUHXRHQ\LOAEDYGX\IBXBEXSZ\KSFXJEDU|Kind=1|AlternatePart= 
-Variation10=Designator=R32|UniqueId=\WZUHXRHQ\LOAEDYGX\IBXBEXSZ\JFKPVFTG|Kind=1|AlternatePart= 
-Variation11=Designator=C64|UniqueId=\WZUHXRHQ\LOAEDYGX\CMEILWBY\NYQTOIZN|Kind=1|AlternatePart= 
-Variation12=Designator=R8|UniqueId=\WZUHXRHQ\LOAEDYGX\NOCNXGLX\QCSNAZYD|Kind=1|AlternatePart= 
-Variation13=Designator=C70|UniqueId=\WZUHXRHQ\LOAEDYGX\ILEPPLKK\YLVZVFYO|Kind=1|AlternatePart= 
-Variation14=Designator=R22|UniqueId=\WZUHXRHQ\LOAEDYGX\ILEPPLKK\PTYXKEJI|Kind=1|AlternatePart= 
-Variation15=Designator=R23|UniqueId=\WZUHXRHQ\LOAEDYGX\ILEPPLKK\NEWIZNLD|Kind=1|AlternatePart= 
-Variation16=Designator=R40|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\XUQZOVLT|Kind=1|AlternatePart= 
-Variation17=Designator=R50|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\QPFOQDXX|Kind=1|AlternatePart= 
-Variation18=Designator=C125|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\FWPUVEQU|Kind=1|AlternatePart= 
-Variation19=Designator=C123|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\IABCVJGL|Kind=1|AlternatePart= 
-Variation20=Designator=C113|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\TKWIYJDV|Kind=1|AlternatePart= 
-Variation21=Designator=C108|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\BWKVLZPL|Kind=1|AlternatePart= 
-Variation22=Designator=C104|UniqueId=\WZUHXRHQ\EBBNERKJ\UYCMMVYY\KMPIWNTY|Kind=1|AlternatePart= 
-Variation23=Designator=R27|UniqueId=\WZUHXRHQ\WNWRSSRM\QBYZPNFQ|Kind=1|AlternatePart= 
-Variation24=Designator=R28|UniqueId=\WZUHXRHQ\WNWRSSRM\ZUFNHKQJ|Kind=1|AlternatePart= 
-Variation25=Designator=R33|UniqueId=\WZUHXRHQ\YUPNCZIJ\NOGRJCBO|Kind=1|AlternatePart= 
-Variation26=Designator=R34|UniqueId=\WZUHXRHQ\YUPNCZIJ\OJQGBXOF|Kind=1|AlternatePart= 
+VariationCount=1
+Variation1=Designator=R8|UniqueId=\OREQSPPD|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
