@@ -1270,36 +1270,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1840,39 +1810,40 @@ Net91=NetName=USB1_TXN|NetColor=clBlack
 Net92=NetName=USB1_TXP|NetColor=clBlack
 Net93=NetName=USB1_TYPEC_EN_B|NetColor=clBlack
 Net94=NetName=VBAT|NetColor=$002541CC
-Net95=NetName=VBUS_5V|NetColor=clYellow
-Net96=NetName=VBUS_A|NetColor=$000099FF
-Net97=NetName=VBUS_IN|NetColor=$000099FF
-Net98=NetName=VBUS_USB|NetColor=$000099FF
-Net99=NetName=VBUS_USB_BDG|NetColor=clBlack
-Net100=NetName=VCAM_1V5|NetColor=$0030114C
-Net101=NetName=VCAM_2V8|NetColor=$0030114C
-Net102=NetName=VDD_1V8|NetColor=$00E8864A
-Net103=NetName=VDD_3V3|NetColor=clLime
-Net104=NetName=VDD_5V|NetColor=clFuchsia
-Net105=NetName=VDD_ARM|NetColor=$00134E27
-Net106=NetName=VDD_ARM_0V9|NetColor=$00C9C4A2
-Net107=NetName=VDD_ARM_S|NetColor=$00134E27
-Net108=NetName=VDD_DRAM_0V9|NetColor=$00134E27
-Net109=NetName=VDD_GPU_0V9|NetColor=$00134E27
-Net110=NetName=VDD_PHY_0V9|NetColor=$0030114C
-Net111=NetName=VDD_PHY_1V8|NetColor=$0030114C
-Net112=NetName=VDD_PHY_3V3|NetColor=$0030114C
-Net113=NetName=VDD_SNVS_0V9|NetColor=$0030114C
-Net114=NetName=VDD_SOC|NetColor=clAqua
-Net115=NetName=VDD_SOC_0V9|NetColor=clAqua
-Net116=NetName=VDD_SOC_S|NetColor=clAqua
-Net117=NetName=VDD_VPU_0V9|NetColor=$00134E27
-Net118=NetName=VDDA_1V8|NetColor=$0030114C
-Net119=NetName=VEXT_3V3|NetColor=$00134E27
-Net120=NetName=VEXT_3V3_EN|NetColor=clBlack
-Net121=NetName=Vin|NetColor=clYellow
-Net122=NetName=VLDO_3V3|NetColor=$004D1220
-Net123=NetName=VREFDDR|NetColor=clBlack
-Net124=NetName=VSD_3V3|NetColor=$0030114C
-Net125=NetName=VSYS|NetColor=clBlue
-Net126=NetName=VSYS_5V|NetColor=clYellow
-Net127=NetName=WIFI_1V8|NetColor=$0030114C
+Net95=NetName=VBUS|NetColor=$000099FF
+Net96=NetName=VBUS_5V|NetColor=clYellow
+Net97=NetName=VBUS_A|NetColor=$000099FF
+Net98=NetName=VBUS_IN|NetColor=$000099FF
+Net99=NetName=VBUS_USB|NetColor=$000099FF
+Net100=NetName=VBUS_USB_BDG|NetColor=clBlack
+Net101=NetName=VCAM_1V5|NetColor=$0030114C
+Net102=NetName=VCAM_2V8|NetColor=$0030114C
+Net103=NetName=VDD_1V8|NetColor=$00E8864A
+Net104=NetName=VDD_3V3|NetColor=clLime
+Net105=NetName=VDD_5V|NetColor=clFuchsia
+Net106=NetName=VDD_ARM|NetColor=$00134E27
+Net107=NetName=VDD_ARM_0V9|NetColor=$00C9C4A2
+Net108=NetName=VDD_ARM_S|NetColor=$00134E27
+Net109=NetName=VDD_DRAM_0V9|NetColor=$00134E27
+Net110=NetName=VDD_GPU_0V9|NetColor=$00134E27
+Net111=NetName=VDD_PHY_0V9|NetColor=$0030114C
+Net112=NetName=VDD_PHY_1V8|NetColor=$0030114C
+Net113=NetName=VDD_PHY_3V3|NetColor=$0030114C
+Net114=NetName=VDD_SNVS_0V9|NetColor=$0030114C
+Net115=NetName=VDD_SOC|NetColor=clAqua
+Net116=NetName=VDD_SOC_0V9|NetColor=clAqua
+Net117=NetName=VDD_SOC_S|NetColor=clAqua
+Net118=NetName=VDD_VPU_0V9|NetColor=$00134E27
+Net119=NetName=VDDA_1V8|NetColor=$0030114C
+Net120=NetName=VEXT_3V3|NetColor=$00134E27
+Net121=NetName=VEXT_3V3_EN|NetColor=clBlack
+Net122=NetName=Vin|NetColor=clYellow
+Net123=NetName=VLDO_3V3|NetColor=$004D1220
+Net124=NetName=VREFDDR|NetColor=clBlack
+Net125=NetName=VSD_3V3|NetColor=$0030114C
+Net126=NetName=VSYS|NetColor=clBlue
+Net127=NetName=VSYS_5V|NetColor=clYellow
+Net128=NetName=WIFI_1V8|NetColor=$0030114C
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
