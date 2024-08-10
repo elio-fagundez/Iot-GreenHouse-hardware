@@ -1800,7 +1800,7 @@ Net115=NetName=VDD_VPU_0V9|NetColor=$00134E27
 Net116=NetName=VDDA_1V8|NetColor=$0030114C
 Net117=NetName=VEXT_3V3|NetColor=$00134E27
 Net118=NetName=VEXT_3V3_EN|NetColor=clBlack
-Net119=NetName=Vin|NetColor=clYellow
+Net119=NetName=Vin|NetColor=$00000098
 Net120=NetName=VLDO_3V3|NetColor=$004D1220
 Net121=NetName=VREFDDR|NetColor=clBlack
 Net122=NetName=VSD_3V3|NetColor=$0030114C
