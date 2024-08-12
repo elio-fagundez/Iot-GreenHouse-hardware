@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FZLQVIJD
 
 [Document4]
-DocumentPath=IOT_GRN_MAIN V1.0 A - CONNECTORS.SchDoc
+DocumentPath=IOT_GRN_MAIN V1.0 A - INPUTS.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
