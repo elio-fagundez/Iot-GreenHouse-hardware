@@ -195,8 +195,20 @@ UniqueID=90B914CC-D9E1-4771-9BED-32D75FD6A92A
 Description=Base Variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=1
+VariationCount=13
 Variation1=Designator=R8|UniqueId=\OREQSPPD|Kind=1|AlternatePart= 
+Variation2=Designator=R?|UniqueId=\JJKKWPBK|Kind=1|AlternatePart= 
+Variation3=Designator=R?|UniqueId=\OMUNHMQY|Kind=1|AlternatePart= 
+Variation4=Designator=J?|UniqueId=\SNGDOVAD|Kind=1|AlternatePart= 
+Variation5=Designator=J?|UniqueId=\SDWPUREA|Kind=1|AlternatePart= 
+Variation6=Designator=U?|UniqueId=\MNQRVPEG|Kind=1|AlternatePart= 
+Variation7=Designator=J?|UniqueId=\YFLDAHTU|Kind=1|AlternatePart= 
+Variation8=Designator=D?|UniqueId=\EEIJVRKP|Kind=1|AlternatePart= 
+Variation9=Designator=C?|UniqueId=\WXMSUKHK|Kind=1|AlternatePart= 
+Variation10=Designator=Q?|UniqueId=\GLSEXEXM|Kind=1|AlternatePart= 
+Variation11=Designator=C?|UniqueId=\DKPACLBO|Kind=1|AlternatePart= 
+Variation12=Designator=R?|UniqueId=\IKYCHUSI|Kind=1|AlternatePart= 
+Variation13=Designator=R?|UniqueId=\HTSFIKTE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
