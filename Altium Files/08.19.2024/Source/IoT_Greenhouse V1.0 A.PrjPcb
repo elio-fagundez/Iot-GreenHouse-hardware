@@ -95,7 +95,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -129,7 +129,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -212,21 +212,19 @@ UniqueID=90B914CC-D9E1-4771-9BED-32D75FD6A92A
 Description=Base Variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
-Variation1=Designator=R8|UniqueId=\OREQSPPD|Kind=1|AlternatePart= 
-Variation2=Designator=R?|UniqueId=\JJKKWPBK|Kind=1|AlternatePart= 
-Variation3=Designator=R?|UniqueId=\OMUNHMQY|Kind=1|AlternatePart= 
-Variation4=Designator=J?|UniqueId=\SNGDOVAD|Kind=1|AlternatePart= 
-Variation5=Designator=J?|UniqueId=\SDWPUREA|Kind=1|AlternatePart= 
-Variation6=Designator=U?|UniqueId=\MNQRVPEG|Kind=1|AlternatePart= 
-Variation7=Designator=J?|UniqueId=\YFLDAHTU|Kind=1|AlternatePart= 
-Variation8=Designator=D?|UniqueId=\EEIJVRKP|Kind=1|AlternatePart= 
-Variation9=Designator=C?|UniqueId=\WXMSUKHK|Kind=1|AlternatePart= 
-Variation10=Designator=Q?|UniqueId=\GLSEXEXM|Kind=1|AlternatePart= 
-Variation11=Designator=C?|UniqueId=\DKPACLBO|Kind=1|AlternatePart= 
-Variation12=Designator=R?|UniqueId=\IKYCHUSI|Kind=1|AlternatePart= 
-Variation13=Designator=R?|UniqueId=\HTSFIKTE|Kind=1|AlternatePart= 
-Variation14=Designator=U7|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart= 
+VariationCount=12
+Variation1=Designator=R2|UniqueId=\OREQSPPD|Kind=1|AlternatePart= 
+Variation2=Designator=J15|UniqueId=\SNGDOVAD|Kind=1|AlternatePart= 
+Variation3=Designator=J16|UniqueId=\SDWPUREA|Kind=1|AlternatePart= 
+Variation4=Designator=U8|UniqueId=\MNQRVPEG|Kind=1|AlternatePart= 
+Variation5=Designator=J7|UniqueId=\YFLDAHTU|Kind=1|AlternatePart= 
+Variation6=Designator=D9|UniqueId=\EEIJVRKP|Kind=1|AlternatePart= 
+Variation7=Designator=C15|UniqueId=\WXMSUKHK|Kind=1|AlternatePart= 
+Variation8=Designator=Q5|UniqueId=\GLSEXEXM|Kind=1|AlternatePart= 
+Variation9=Designator=C16|UniqueId=\DKPACLBO|Kind=1|AlternatePart= 
+Variation10=Designator=R22|UniqueId=\IKYCHUSI|Kind=1|AlternatePart= 
+Variation11=Designator=R21|UniqueId=\HTSFIKTE|Kind=1|AlternatePart= 
+Variation12=Designator=U3|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
