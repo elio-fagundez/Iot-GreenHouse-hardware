@@ -72,7 +72,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PCPJTHFB
 
 [Document2]
-DocumentPath=IOT_GRN_MAIN V1.0 A.OutJob
+DocumentPath=IoT_Greenhouse V1.0 A.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,23 +123,6 @@ GenerateClassCluster=0
 DocumentUniqueId=FZLQVIJD
 
 [Document5]
-DocumentPath=IoT_Greenhouse V1.0 A - InputsSchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YPHSLFKC
-
-[Document6]
 DocumentPath=IoT_Greenhouse V1.0 A - Outputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -156,7 +139,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ACTSTMJP
 
-[Document7]
+[Document6]
 DocumentPath=IoT_Greenhouse V1.0 A.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -173,7 +156,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RQORXKDH
 
-[Document8]
+[Document7]
 DocumentPath=IoT_Greenhouse V1.0 A.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -190,7 +173,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=IoT_Greenhouse V1.0 A.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -230,20 +213,20 @@ Variation14=Designator=U7|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Hat
-Value=
+Name=Version
+Value=1.0
 
 [Parameter2]
+Name=ProjectTitle
+Value=IoT_Greenhouse V1.0 A
+
+[Parameter3]
 Name=Letter
 Value=A
 
-[Parameter3]
-Name=ProjectTitle
-Value=IOT_GRN_MAIN V1.0 A
-
 [Parameter4]
-Name=Version
-Value=1.0
+Name=Hat
+Value=
 
 [Configuration1]
 Name=Sources
