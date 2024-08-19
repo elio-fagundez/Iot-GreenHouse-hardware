@@ -195,7 +195,7 @@ UniqueID=90B914CC-D9E1-4771-9BED-32D75FD6A92A
 Description=Base Variant
 AllowFabrication=0
 ParameterCount=0
-VariationCount=13
+VariationCount=14
 Variation1=Designator=R8|UniqueId=\OREQSPPD|Kind=1|AlternatePart= 
 Variation2=Designator=R?|UniqueId=\JJKKWPBK|Kind=1|AlternatePart= 
 Variation3=Designator=R?|UniqueId=\OMUNHMQY|Kind=1|AlternatePart= 
@@ -209,6 +209,7 @@ Variation10=Designator=Q?|UniqueId=\GLSEXEXM|Kind=1|AlternatePart=
 Variation11=Designator=C?|UniqueId=\DKPACLBO|Kind=1|AlternatePart= 
 Variation12=Designator=R?|UniqueId=\IKYCHUSI|Kind=1|AlternatePart= 
 Variation13=Designator=R?|UniqueId=\HTSFIKTE|Kind=1|AlternatePart= 
+Variation14=Designator=U7|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [Parameter1]
@@ -1257,6 +1258,36 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Ansoft Neutral
+OutputName13=Ansoft Neutral (AutoPCB)
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=HyperLynx
+OutputName14=HyperLynx (AutoPCB)
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=Orcad v7 Capture Design
+OutputName15=Orcad v7 Capture Design (AutoSCH)
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=P-CAD ASCII
+OutputName16=P-CAD ASCII (AutoPCB)
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=P-CAD V16 Schematic Design
+OutputName17=P-CAD V16 Schematic Design (AutoSCH)
+OutputDocumentPath17=
+OutputVariantName17=
+OutputDefault17=0
+OutputType18=SiSoft
+OutputName18=SiSoft (AutoPCB)
+OutputDocumentPath18=
+OutputVariantName18=
+OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
