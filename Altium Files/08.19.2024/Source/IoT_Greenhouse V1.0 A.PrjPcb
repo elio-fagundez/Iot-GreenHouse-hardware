@@ -55,7 +55,7 @@ ReleaseFolderPath=C:\Users\snee\Documents\Altium\Projects\Sentinel Controller\Pr
 ReleaseZipPath=[OutputPath][ProjectName].zip
 
 [Document1]
-DocumentPath=IOT_GRN_MAIN V1.0 A - Rev His.SchDoc
+DocumentPath=IoT_Greenhouse V1.0 A - Rev His.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -89,7 +89,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document3]
-DocumentPath=IOT_GRN_MAIN V1.0 A - PWR INPUT.SchDoc
+DocumentPath=IoT_Greenhouse V1.0 A - Pwr Input.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -106,7 +106,7 @@ GenerateClassCluster=0
 DocumentUniqueId=QAAXDMNE
 
 [Document4]
-DocumentPath=IOT_GRN_MAIN V1.0 A - ESP32.SchDoc
+DocumentPath=IoT_Greenhouse V1.0 A - Esp32.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -123,7 +123,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FZLQVIJD
 
 [Document5]
-DocumentPath=IOT_GRN_MAIN V1.0 A - INPUTS.SchDoc
+DocumentPath=IoT_Greenhouse V1.0 A - InputsSchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -140,7 +140,7 @@ GenerateClassCluster=0
 DocumentUniqueId=YPHSLFKC
 
 [Document6]
-DocumentPath=IOT_GRN_MAIN V1.0 A - OUTPUTS.SchDoc
+DocumentPath=IoT_Greenhouse V1.0 A - Outputs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -157,7 +157,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ACTSTMJP
 
 [Document7]
-DocumentPath=IOT_GRN_MAIN V1.0 A.PcbDoc
+DocumentPath=IoT_Greenhouse V1.0 A.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -174,7 +174,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RQORXKDH
 
 [Document8]
-DocumentPath=IOT_GRN_MAIN V1.0 A.BomDoc
+DocumentPath=IoT_Greenhouse V1.0 A.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -191,7 +191,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=IOT_GRN_MAIN V1.0 A.PCBDwf
+DocumentPath=IoT_Greenhouse V1.0 A.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1275,36 +1275,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
