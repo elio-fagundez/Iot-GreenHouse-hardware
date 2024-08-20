@@ -98,8 +98,8 @@ AnnotateScope=All
 AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -115,8 +115,8 @@ AnnotateScope=All
 AnnotateOrder=1
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -132,8 +132,8 @@ AnnotateScope=All
 AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -149,8 +149,8 @@ AnnotateScope=All
 AnnotateOrder=3
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
+ClassGenCCAutoEnabled=0
+ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
@@ -219,7 +219,7 @@ Variation3=Designator=J16|UniqueId=\SDWPUREA|Kind=1|AlternatePart=
 Variation4=Designator=U8|UniqueId=\MNQRVPEG|Kind=1|AlternatePart= 
 Variation5=Designator=J7|UniqueId=\YFLDAHTU|Kind=1|AlternatePart= 
 Variation6=Designator=D9|UniqueId=\EEIJVRKP|Kind=1|AlternatePart= 
-Variation7=Designator=C15|UniqueId=\WXMSUKHK|Kind=1|AlternatePart= 
+Variation7=Designator=C15|UniqueId=\EAFMMSCQ|Kind=1|AlternatePart= 
 Variation8=Designator=Q5|UniqueId=\GLSEXEXM|Kind=1|AlternatePart= 
 Variation9=Designator=C16|UniqueId=\DKPACLBO|Kind=1|AlternatePart= 
 Variation10=Designator=R22|UniqueId=\IKYCHUSI|Kind=1|AlternatePart= 
@@ -228,20 +228,20 @@ Variation12=Designator=U3|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Hat
-Value=
+Name=Version
+Value=1.0
 
 [Parameter2]
-Name=Letter
-Value=A
-
-[Parameter3]
 Name=ProjectTitle
 Value=IoT_Greenhouse V1.0 A
 
+[Parameter3]
+Name=Letter
+Value=A
+
 [Parameter4]
-Name=Version
-Value=1.0
+Name=Hat
+Value=
 
 [Configuration1]
 Name=Sources
