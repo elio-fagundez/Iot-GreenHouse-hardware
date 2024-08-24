@@ -214,10 +214,10 @@ AllowFabrication=0
 ParameterCount=0
 VariationCount=12
 Variation1=Designator=R2|UniqueId=\OREQSPPD|Kind=1|AlternatePart= 
-Variation2=Designator=J15|UniqueId=\SNGDOVAD|Kind=1|AlternatePart= 
-Variation3=Designator=J16|UniqueId=\SDWPUREA|Kind=1|AlternatePart= 
+Variation2=Designator=J16|UniqueId=\SNGDOVAD|Kind=0|AlternatePart= 
+Variation3=Designator=J17|UniqueId=\SDWPUREA|Kind=0|AlternatePart= 
 Variation4=Designator=U8|UniqueId=\MNQRVPEG|Kind=1|AlternatePart= 
-Variation5=Designator=J7|UniqueId=\YFLDAHTU|Kind=1|AlternatePart= 
+Variation5=Designator=J8|UniqueId=\YFLDAHTU|Kind=0|AlternatePart= 
 Variation6=Designator=D9|UniqueId=\EEIJVRKP|Kind=1|AlternatePart= 
 Variation7=Designator=C15|UniqueId=\EAFMMSCQ|Kind=1|AlternatePart= 
 Variation8=Designator=Q5|UniqueId=\GLSEXEXM|Kind=1|AlternatePart= 
@@ -228,20 +228,20 @@ Variation12=Designator=U3|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Version
-Value=1.0
+Name=Hat
+Value=
 
 [Parameter2]
-Name=ProjectTitle
-Value=IoT_Greenhouse V1.0 A
-
-[Parameter3]
 Name=Letter
 Value=A
 
+[Parameter3]
+Name=ProjectTitle
+Value=IoT_Greenhouse V1.0 A
+
 [Parameter4]
-Name=Hat
-Value=
+Name=Version
+Value=1.0
 
 [Configuration1]
 Name=Sources

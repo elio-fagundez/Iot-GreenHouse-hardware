@@ -1,0 +1,129 @@
+Removed Pin From Net: NetName=GPIO0_ADC1_0 Pin=J2-1
+Removed Pin From Net: NetName=GPIO1_ADC1_1 Pin=J2-2
+Removed Pin From Net: NetName=GPIO2_ADC1_2 Pin=J2-3
+Removed Pin From Net: NetName=GPIO3 Pin=J2-4
+Removed Pin From Net: NetName=GPIO4_SCK Pin=J2-5
+Removed Pin From Net: NetName=GPIO5_MISO Pin=J2-6
+Removed Pin From Net: NetName=GPIO6_MOSI Pin=J2-7
+Removed Pin From Net: NetName=GPIO7_SS Pin=J2-8
+Removed Pin From Net: NetName=GPIO8_SDA Pin=J2-9
+Removed Pin From Net: NetName=GPIO9_SCL Pin=J2-10
+Removed Pin From Net: NetName=GPIO10 Pin=J2-11
+Removed Pin From Net: NetName=GPIO18 Pin=J2-12
+Removed Pin From Net: NetName=GPIO19 Pin=J2-13
+Removed Pin From Net: NetName=UART_RXD Pin=J2-14
+Removed Pin From Net: NetName=UART_TXD Pin=J2-15
+Change Component Footprint: Designator=J2 Old Footprint=HEADER_MALE_15P New Footprint=CONN_HEADER_MALE_10P
+Change Component Comment : Designator=J2 Old Comment=PEC15SFAN New Comment=PH1-10-UA
+Change Component Designator: OldDesignator=D14 NewDesignator=D13
+Change Component Designator: OldDesignator=J3 NewDesignator=J4
+Change Component Designator: OldDesignator=J4 NewDesignator=J5
+Change Component Designator: OldDesignator=J5 NewDesignator=J6
+Change Component Designator: OldDesignator=J6 NewDesignator=J7
+Change Component Designator: OldDesignator=J7 NewDesignator=J8
+Change Component Designator: OldDesignator=J8 NewDesignator=J9
+Change Component Designator: OldDesignator=J9 NewDesignator=J10
+Change Component Designator: OldDesignator=J10 NewDesignator=J11
+Change Component Designator: OldDesignator=J11 NewDesignator=J12
+Change Component Designator: OldDesignator=J12 NewDesignator=J13
+Change Component Designator: OldDesignator=J13 NewDesignator=J14
+Change Component Designator: OldDesignator=J14 NewDesignator=J15
+Change Component Designator: OldDesignator=J15 NewDesignator=J16
+Change Component Designator: OldDesignator=J16 NewDesignator=J17
+Change Component Designator: OldDesignator=TP1 NewDesignator=TP3
+Change Component Designator: OldDesignator=TP2 NewDesignator=TP1
+Change Component Designator: OldDesignator=TP3 NewDesignator=TP2
+Change Component Designator: OldDesignator=U4 NewDesignator=U5
+Change Component Designator: OldDesignator=U5 NewDesignator=U4
+Change component parameters: Designator = "J2" ("J2"); Footprint = "HEADER_MALE_15P"; UniqueID = "\IYAFIRYW" ("\IYAFIRYW")
+Change component parameters (AddParameter): Name = "Category"; Value = "Connectors"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/13676/page-292-295-13676646.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/13676/page-292-295-13676646.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Finish - Mating"; Value = "GOLD"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Fastening Type"; Value = "Pull"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Adam Equipment"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer Part Number"; Value = "PH1-10-UA"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Positions"; Value = "10"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Pricing 1"; Value = "1=0.19, 10=0.144, 100=0.1095, 500=0.09102, 1000=0.08424, 5000=0.07078, 10000=0.06586 (USD)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "PH1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Stock 1"; Value = "3363"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Supplier Part Number 1"; Value = "2057-PH1-10-UA-ND"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Added Component: Designator=J3(CONN_HEADER_MALE_10P)
+Add component (AddParameter): Name = "Category"; Value = "Connectors"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "https://datasheet.ciiva.com/13676/page-292-295-13676646.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "https://datasheet.ciiva.com/13676/page-292-295-13676646.pdf?src-supplier=Mouser"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Header"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Finish - Mating"; Value = "GOLD"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Shape"; Value = "Square"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Male Pin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Fastening Type"; Value = "Pull"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Color"; Value = "Black"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "PBT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Adam Equipment"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "PH1-10-UA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "105°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-40°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "10"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "2.54mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pricing 1"; Value = "1=0.19, 10=0.144, 100=0.1095, 500=0.09102, 1000=0.08424, 5000=0.07078, 10000=0.06586 (USD)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RoHS"; Value = "Yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "PH1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Stock 1"; Value = "3363"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier 1"; Value = "Digikey"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part Number 1"; Value = "2057-PH1-10-UA-ND"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Solder"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "250V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=5V Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J2-2
+Added Pin To Net: NetName=GPIO0_ADC1_0 Pin=J2-3
+Added Pin To Net: NetName=GPIO1_ADC1_1 Pin=J2-4
+Added Pin To Net: NetName=GPIO2_ADC1_2 Pin=J2-5
+Added Pin To Net: NetName=GPIO3 Pin=J2-6
+Added Pin To Net: NetName=GPIO4_SCK Pin=J2-7
+Added Pin To Net: NetName=GPIO5_MISO Pin=J2-8
+Added Pin To Net: NetName=GPIO6_MOSI Pin=J2-9
+Added Pin To Net: NetName=GPIO7_SS Pin=J2-10
+Added Pin To Net: NetName=3V3 Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J3-2
+Added Pin To Net: NetName=GND Pin=J3-3
+Added Pin To Net: NetName=GPIO8_SDA Pin=J3-4
+Added Pin To Net: NetName=GPIO9_SCL Pin=J3-5
+Added Pin To Net: NetName=GPIO10 Pin=J3-6
+Added Pin To Net: NetName=GPIO18 Pin=J3-7
+Added Pin To Net: NetName=GPIO19 Pin=J3-8
+Added Pin To Net: NetName=UART_RXD Pin=J3-9
+Added Pin To Net: NetName=UART_TXD Pin=J3-10
+Change Net Name : Old Net Name=NetD14_2 New Net Name=NetD13_2
+Change Net Name : Old Net Name=NetJ6_5 New Net Name=NetJ7_5
+Change Net Name : Old Net Name=NetJ6_10 New Net Name=NetJ7_10
+Change Net Name : Old Net Name=NetJ6_11 New Net Name=NetJ7_11
+Change Net Name : Old Net Name=NetJ6_12 New Net Name=NetJ7_12
+Change Net Name : Old Net Name=NetJ6_13 New Net Name=NetJ7_13
+Change Net Name : Old Net Name=NetJ6_14 New Net Name=NetJ7_14
+Change Net Name : Old Net Name=NetJ8_1 New Net Name=NetJ9_1
+Change Net Name : Old Net Name=NetJ8_2 New Net Name=NetJ9_2
+Change Net Name : Old Net Name=NetJ8_3 New Net Name=NetJ9_3
+Change Net Name : Old Net Name=NetJ8_4 New Net Name=NetJ9_4
+Change Net Name : Old Net Name=NetJ13_2 New Net Name=NetJ14_2
+Change Net Name : Old Net Name=NetJ14_2 New Net Name=NetJ15_2
+Change Net Name : Old Net Name=NetJ16_2 New Net Name=NetJ17_2
