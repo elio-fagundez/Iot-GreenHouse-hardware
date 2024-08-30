@@ -1,9 +1,0 @@
-DRC Rules Export File for PCB: C:\Users\Elio Fagundez\Documents\GitHub\Iot-GreenHouse-hardware\Altium Files\08.27.2024\Source\IoT_Greenhouse V1.0 A.PcbDoc
-RuleKind=Clearance|RuleName=Clearance_J1|Scope=Board|Minimum=3.94
-RuleKind=Clearance|RuleName=Clearance_U1|Scope=Board|Minimum=3.94
-RuleKind=Clearance|RuleName=Clearance_in_Z90|Scope=Board|Minimum=3.94
-RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
-RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpPad|Scope=Board|Minimum=2.00
-RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpVia|Scope=Board|Minimum=-3.00
-RuleKind=Width|RuleName=Width|Scope=Board|Minimum=3.35
