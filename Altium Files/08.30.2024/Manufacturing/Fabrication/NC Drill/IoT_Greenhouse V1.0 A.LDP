@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: C:\Users\Elio Fagundez\Documents\GitHub\Iot-GreenHouse-hardware\Altium Files\08.27.2024\Source\IoT_Greenhouse V1.0 A.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=iot_greenhouse v1.0 a-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=iot_greenhouse v1.0 a-slotholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Rect_Holes|DrillFile=iot_greenhouse v1.0 a-rectholes.txt|DrillLayers=gtl,gbl
