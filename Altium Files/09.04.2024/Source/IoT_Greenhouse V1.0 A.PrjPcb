@@ -224,98 +224,6 @@ Variation8=Designator=R21|UniqueId=\HTSFIKTE|Kind=0|AlternatePart=
 Variation9=Designator=U3|UniqueId=\ZFPXOGBM|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=..\Manufacturing\Fabrication\NC Drill\IoT_Greenhouse V1.0 A-RectHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=..\Manufacturing\Fabrication\NC Drill\IoT_Greenhouse V1.0 A-RoundHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=..\Manufacturing\Fabrication\NC Drill\IoT_Greenhouse V1.0 A-SlotHoles.TXT
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=..\Manufacturing\Fabrication\NC Drill\IoT_Greenhouse V1.0 A.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GBO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GBP
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GD1
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GM4
-DItemRevisionGUID=
-
-[GeneratedDocument13]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument14]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument15]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GTP
-DItemRevisionGUID=
-
-[GeneratedDocument16]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument17]
-DocumentPath=..\Manufacturing\Fabrication\NC Drill\IoT_Greenhouse V1.0 A.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument18]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.REP
-DItemRevisionGUID=
-
-[GeneratedDocument19]
-DocumentPath=..\Manufacturing\Fabrication\Gerber\IoT_Greenhouse V1.0 A.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument20]
-DocumentPath=..\Manufacturing\Assembly\Pick Place\IoT_Greenhouse V1.0 A_A_2024-08-28.csv
-DItemRevisionGUID=
-
-[GeneratedDocument21]
-DocumentPath=..\Manufacturing\ExportSTEP\IoT_Greenhouse V1.0 A_A_2024-08-28.step
-DItemRevisionGUID=
-
-[GeneratedDocument22]
-DocumentPath=..\Manufacturing\Assembly\Pick Place\IoT_Greenhouse V1.0 A_A_2024-08-28.txt
-DItemRevisionGUID=
-
-[GeneratedDocument23]
-DocumentPath=..\Manufacturing\Assembly\BOM\IoT_Greenhouse V1.0 A_A_2024-08-28.xlsx
-DItemRevisionGUID=
-
 [Parameter1]
 Name=Hat
 Value=
@@ -1362,36 +1270,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
