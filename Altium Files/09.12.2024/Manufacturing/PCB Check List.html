@@ -3,185 +3,230 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PCB Checklist</title>
+    <title>PCB Check List</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
+            font-family: Arial, sans-serif;
             background-color: #f0f0f0;
+            margin: 0;
             padding: 20px;
         }
-        .container {
-            background-color: #d3d3d3;
+        h1 {
+            text-align: center;
+        }
+        .checklist-container {
+            background-color: #d9d9d9;
             padding: 20px;
             border-radius: 10px;
             max-width: 600px;
             margin: 0 auto;
         }
-        h1 {
-            text-align: center;
-            font-size: 24px;
+        .project-info {
             margin-bottom: 20px;
         }
-        .input-group {
-            margin-bottom: 15px;
-        }
-        label {
-            font-size: 18px;
+        .project-info label {
             font-weight: bold;
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 8px;
-            font-size: 16px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
         }
         .checklist-item {
+            margin-bottom: 15px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 15px;
-        }
-        .checklist-item span {
-            font-size: 16px;
-            flex-grow: 1;
         }
         .checklist-item .number {
             font-size: 18px;
             font-weight: bold;
             margin-right: 10px;
         }
-        .checklist-item input[type="checkbox"] {
-            margin-left: 10px;
+        .checklist-item .item-text {
+            flex-grow: 1;
+        }
+        .checklist-item input {
             transform: scale(1.5);
         }
     </style>
 </head>
 <body>
-
-    <div class="container">
-        <h1>PCB Checklist</h1>
-        <div class="input-group">
-            <label for="project">Project:</label>
-            <input type="text" id="project" name="project">
-        </div>
-        <div class="input-group">
+    <h1>PCB Check List</h1>
+    <div class="checklist-container">
+        <div class="project-info">
+            <label for="project-name">Project:</label>
+            <input type="text" id="project-name" placeholder="Enter project name"><br><br>
             <label for="date">Date:</label>
-            <input type="text" id="date" name="date">
-        </div>
-        <div class="input-group">
+            <input type="date" id="date"><br><br>
             <label for="designer">Designer:</label>
-            <input type="text" id="designer" name="designer">
+            <input type="text" id="designer" placeholder="Enter designer name">
         </div>
-        <div class="checklist">
-            <div class="checklist-item">
-                <span><span class="number">1)</span>Each designator is close to and clearly identifies the associated component</span>
-                <input type="checkbox" id="item1">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">2)</span>All designators are only in one or two orientations</span>
-                <input type="checkbox" id="item2">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">3)</span>Text size and font will remain legible after the fabrications process</span>
-                <input type="checkbox" id="item3">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">4)</span>ICs have pin one clearly marked</span>
-                <input type="checkbox" id="item4">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">5)</span>Board name, print date, and revision number</span>
-                <input type="checkbox" id="item5">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">6)</span>Company logo and product logo (if apply)</span>
-                <input type="checkbox" id="item6">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">7)</span>Warning/Hazard label(s) and Icons (if apply)</span>
-                <input type="checkbox" id="item7">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">8)</span>Mounting points have sufficient clearance for the chosen washer and screw head</span>
-                <input type="checkbox" id="item8">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">9)</span>All components (including mechanical items) have accurate 3D models</span>
-                <input type="checkbox" id="item9">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">10)</span>Tent all vias on your board to avoid possibilities for short circuits</span>
-                <input type="checkbox" id="item10">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">11)</span>Each decoupling capacitor requires its own via for VCC and for GND direct to reference planes</span>
-                <input type="checkbox" id="item11">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">12)</span>Bypass capacitors are placed as close to IC power pins as possible</span>
-                <input type="checkbox" id="item12">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">13)</span>Programmable devices have accessible programming header/pads</span>
-                <input type="checkbox" id="item13">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">14)</span>Verify Existing impedance networks</span>
-                <input type="checkbox" id="item14">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">15)</span>Differential pair tracks lengths are matched</span>
-                <input type="checkbox" id="item15">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">16)</span>The ground plane has sufficient current-carrying vias near connectors, and voltage/return sinks</span>
-                <input type="checkbox" id="item16">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">17)</span>Minimum track widths for all current-carrying nets are sufficient.</span>
-                <input type="checkbox" id="item17">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">18)</span>Repour all polygons</span>
-                <input type="checkbox" id="item18">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">19)</span>Check if an RF shield is required anywhere on the board and if it has a sufficient footprint</span>
-                <input type="checkbox" id="item19">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">20)</span>If you have multiple grounds, ensure that they are tied together at a single point only</span>
-                <input type="checkbox" id="item20">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">21)</span>EMI/RFI filtering is as close to the exit point (board edge, connector, shield) as possible</span>
-                <input type="checkbox" id="item21">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">22)</span>Perform a review of the final assembly drawing files</span>
-                <input type="checkbox" id="item22">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">23)</span>DRC is apply</span>
-                <input type="checkbox" id="item23">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">24)</span>Output files generation are ready</span>
-                <input type="checkbox" id="item24">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">25)</span>Print out the PCB on 1:1 scale and see if special components fit correctly and if it fits the housing</span>
-                <input type="checkbox" id="item25">
-            </div>
-            <div class="checklist-item">
-                <span><span class="number">26)</span>Achieve an official “GO” from the customer before going to PCB design</span>
-                <input type="checkbox" id="item26">
-            </div>
+
+        <div class="checklist-item">
+            <span class="number">1.</span>
+            <span class="item-text">Each designator is close to and clearly identifies the associated component</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">2.</span>
+            <span class="item-text">All designators are only in one or two orientations</span>
+            <input type="checkbox">
+        </div>
+
+        <!-- Add more checklist items here in the same format -->
+        
+        <div class="checklist-item">
+            <span class="number">3.</span>
+            <span class="item-text">Text size and font will remain legible after the fabrications process</span>
+            <input type="checkbox">
+        </div>
+        
+        <div class="checklist-item">
+            <span class="number">4.</span>
+            <span class="item-text">ICs have pin one clearly marked</span>
+            <input type="checkbox">
+        </div>
+        
+        <div class="checklist-item">
+            <span class="number">5.</span>
+            <span class="item-text">Board name, print date, and revision number</span>
+            <input type="checkbox">
+        </div>
+        
+        <div class="checklist-item">
+            <span class="number">6.</span>
+            <span class="item-text">Company logo and product logo (if apply)</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">7.</span>
+            <span class="item-text">Warning/Hazard label(s) and Icons (if apply)</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">8.</span>
+            <span class="item-text">Mounting points have sufficient clearance for the chosen washer and screw head</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">9.</span>
+            <span class="item-text">All components (including mechanical items) have accurate 3D models</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">10.</span>
+            <span class="item-text">Tent all vias on your board to avoid possibilities for short circuits</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">11.</span>
+            <span class="item-text">Each decoupling capacitor requires its own via for VCC and for GND direct to reference planes</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">12.</span>
+            <span class="item-text">Bypass capacitors are placed as close to IC power pins as possible</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">13.</span>
+            <span class="item-text">Programmable devices have accessible programming header/pads</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">14.</span>
+            <span class="item-text">Verify Existing impedance networks</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">15.</span>
+            <span class="item-text">Differential pair tracks lengths are matched</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">16.</span>
+            <span class="item-text">The ground plane has sufficient current-carrying vias near connectors, and voltage/return sinks</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">17.</span>
+            <span class="item-text">Minimum track widths for all current-carrying nets are sufficient.</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">18.</span>
+            <span class="item-text">Repour all polygons</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">19.</span>
+            <span class="item-text">Check if an RF shield is required anywhere on the board and if it has a sufficient footprint</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">20.</span>
+            <span class="item-text">If you have multiple grounds, ensure that they are tied together at a single point only</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">21.</span>
+            <span class="item-text">EMI/RFI filtering is as close to the exit point (board edge, connector, shield) as possible</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">22.</span>
+            <span class="item-text">Perform a review of the final assembly drawing files</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">23.</span>
+            <span class="item-text">DRC is apply</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">24.</span>
+            <span class="item-text">Output files generation are ready</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">25.</span>
+            <span class="item-text">Print out the PCB on 1:1 scale and see if special components fit correctly and if it fits the housing</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">26.</span>
+            <span class="item-text">Verify assembly drawing that had relevant information about manufacturing</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">27.</span>
+            <span class="item-text">Testing gerber files in a gerber visor online</span>
+            <input type="checkbox">
+        </div>
+
+        <div class="checklist-item">
+            <span class="number">28.</span>
+            <span class="item-text">Achieve an official “GO” from the customer before going to PCB design</span>
+            <input type="checkbox">
         </div>
     </div>
-
 </body>
 </html>

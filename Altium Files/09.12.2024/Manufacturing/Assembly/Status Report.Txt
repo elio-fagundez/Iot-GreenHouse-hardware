@@ -1,0 +1,11 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Variant [Base Variant] of PCB Document [IoT_Greenhouse V1.0 A.PcbDoc]
+   Generated File[IoT_Greenhouse V1.0 A_A_2024-09-12.txt]
+   Generated File[IoT_Greenhouse V1.0 A_A_2024-09-12.csv]
+
+
+Files Generated   : 2
+Documents Printed : 0
+
+Finished Output Generation At 11:22:08 AM On 9/12/2024

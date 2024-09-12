@@ -1,0 +1,24 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: IoT_Greenhouse V1.0 A.PcbDoc   9/12/2024  11:21:33 AM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : IoT_Greenhouse V1.0 A-RoundHoles.TXT
+ASCII SlotHoles File : IoT_Greenhouse V1.0 A-SlotHoles.TXT
+ASCII RectHoles File : IoT_Greenhouse V1.0 A-RectHoles.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      12mil (0.3mm)                                             Round             246       PTH        57.09inch (1449.99mm)
+T2      16mil (0.399mm)                                           Round             8         PTH        7.43inch (188.72mm)
+T3      24mil (0.599mm)                                           Slot              4         PTH        1.50inch (38.14mm)
+T4      39mil (1.001mm)                                           Rectangle         3         PTH        1.15inch (29.18mm)
+T5      41mil (1.049mm)                                           Round             30        PTH        13.74inch (349.06mm)
+T6      43mil (1.1mm)                                             Round             4         PTH        0.67inch (17.08mm)
+T7      53mil (1.349mm)                                           Round             26        PTH        8.80inch (223.53mm)
+T8      126mil (3.2mm)                                            Round             4         PTH        15.18inch (385.66mm)
+T9      26mil (0.65mm)                                            Round             2         NPTH       0.23inch (5.78mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              327
+
+Total Processing Time (hh:mm:ss) : 00:00:01
